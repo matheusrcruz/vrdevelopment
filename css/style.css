@@ -1,0 +1,535 @@
+/*CONFIGURAÇÃO FONT*/
+@font-face {
+    font-family:"florentia";
+    src: url ("fonts/Florentia-Thin-trial.ttf");
+    
+}
+/*FIM*/
+
+
+/*CONFIGURAÇÃO BODY*/
+body {
+    margin: 0px;
+    font-family: "florentia",sans-serif;
+    background-color: #fafafa;
+    left: 0;
+    padding: 0;
+    margin: 0 auto;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DE TODO HEADER*/
+header {
+    height: 159px;
+    background-color: #fafafa;
+    top :0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+    height: 180px;
+    border-bottom:  1px solid gray;
+}
+    /*HORARIO DE ATENDIMENTO CONFIGURAÇÃO*/
+    .barra_superior {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        background-color: black;
+        opacity: .9;
+        padding-left: 10px;
+    }
+    .barra_superior .container .row .col-md-12 a {
+        text-decoration: none;
+        color:white;
+    }
+    /*CONFIGURAÇÃO LOGO*/
+    .container .row .col-md-3 a img  {
+        border-radius: 3px;
+        padding-top: 17px;
+        width: 100%;
+        margin-right: 200px;
+    }
+    /*CONFIGURAÇÃO DOS MENUS*/
+    .container .row .col-md-9 nav {
+        margin-top: 50px;
+    }
+    /*CONFIGURAÇÃO MENU HAMBURGER */
+    .container .row .col-md-9 label {
+        float: right;
+        font-size: 35px;
+        display: none;
+    }
+    .container .row .col-md-9 #toggle {
+        display: none;
+        float: right;
+    }
+    .container .logo {
+        display: none;
+    }
+    /*CONFIGURAÇÃO MENU DROPDOWN*/
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    ul li {
+        float: left;
+        width: 160px;
+        height: 40px;
+        background-color: #fafafa;
+        opacity: .7;
+        line-height: 40px;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        text-decoration: none;
+    }
+    ul li ul li a {
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    ul li a:hover {
+        background-color: #338033;
+        color: white;
+        text-decoration: none;
+    }
+    ul li ul li {
+        display: none;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+    ul li:hover ul li {
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO SEC01*/
+.sec01 {
+    height: 610px;
+    color: white;
+    background-image: url(../img/web.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+}
+    .sec01 .container .row .col-md-12  .titulo {
+        font-size: 48px;
+        padding-top: 150px;
+    }
+    .sec01 .container .row .col-md-12  .subtitulo {
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
+    @media only screen and (max-width: 500px) {
+        .sec01 {
+            text-align: center;
+        }
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO SEC02*/
+    .sec02 {
+        border-bottom: 1px solid gray;
+        margin-bottom: 40px;
+    }
+    .sec02 .container .row .col-md-12 img {
+        width: 100%;
+    }
+    .sec02 .container .row .col-md-12 p {
+        text-align: center;
+        font-size: 30px;
+        color: gray;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .sec02 .container .row .col-md-12 a .btn {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    .sec02 .container .row .col-md-12 {
+        text-align: center;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DO FOOTER*/
+    footer .container .row .col-md-4 img {
+        width: 100%;
+    }
+    footer .container .row .col-md-4 {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    footer .container .row .col-md-4 p {
+        padding-top: 40px;
+    }
+    footer .container-fluid .row .col-md-12 {
+        background-color: rgb(34, 34, 34);
+        color: white;
+        text-align: center;
+        padding-top:20px;
+        padding-bottom: 10px;
+        height: 80px;
+    }
+    footer .container-fluid .row .col-md-12 p a {
+        color: white;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DO SOBRE*/
+.sobre {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #848484;
+}
+    .sobre .container .row .col-md-12 p {
+        text-align: justify;
+        color: gray;
+    }
+    .sobre .container .row .col-md-12 .title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sobre .container .row .col-md-12 img {
+        width: 100%;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DO PORTIFÓLIO*/
+.portifolio {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #848484;
+}
+    .portifolio .container .row .col-md-12 .row .col-md-6 p {
+        text-align: center;
+        color: gray;
+        padding-top:  50px;
+    }
+    .portifolio .container .row .col-md-12 .row .col-md-6 .content {
+        margin-top: 140px;
+    }
+    .portifolio .container .row .col-md-12 .row .col-md-6 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DO TITULO*/
+.title {
+    font-size: 30px;
+    color: #848484;
+    
+}
+/*FIM*/
+
+
+/*CONFIGURAÇÃO TERMOS DE USO*/
+    .sobre .container .row .col-md-12 p {
+        text-align: justify;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DO FALE CONOSCO*/
+    .sobre .container .row .col-md-12 .row .col-md-6 form {
+        background-color: white;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .sobre .container .row .col-md-12 .row .col-md-6 img {
+        margin-top: 150px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sobre .container .row .col-md-12 .row .col-md-6 form input  {
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .sobre .container .row .col-md-12 .contato {
+        margin-left: 570px;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO MODAL*/
+.container .row .col-md-12 .modal {
+    display: none;
+    border: 1px solid black;
+    position: fixed;
+    width: 500px;
+    background-color:black;
+    opacity: .9;
+    top: 50%;
+    height: 220px;
+    margin-top: -90px;
+    border-radius: 4px;
+    left: 50%;
+    margin-left: -250px;
+    padding: 10px;
+    color: white;
+}
+.container .row .col-md-12 .modal:hover {
+    transform: scale(1.05);
+    transition:all 1s;
+}
+    .container .row .col-md-12 .modal a {
+        float: right;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        background-color: black;
+        width: 20px;
+        height: 16px;
+        padding: 2px;
+        text-align: center;
+        border-radius: 3px;
+        padding-top: 4px;
+    }
+    .container .row .col-md-12.modal a:hover {
+        background-color: #338033;
+    }
+    .container .row .col-md-12 .modal input[type=text] {
+        width: 250px;
+        border:0px;
+        border-bottom: 1px solid white;
+        background-color: black;
+        margin-left: 120px;
+        color: white;
+        cursor: pointer;
+    }
+    .container .row .col-md-12 .modal input[type=text]:hover {
+        border-bottom: 1px solid white;
+        color: white;
+        cursor: pointer;
+        transition: all 1s;
+        transform: scale(1.1);
+    }
+    .container .row .col-md-12 .mods {
+        font-size: 24px;
+    }
+/*FIM*/
+
+
+/*CONFIGURAÇÃO DO BOTAO COM ESTILO*/
+button {
+    background: black;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+    button:focus {
+        outline: none;
+    }
+    button:before {
+        content: '';
+        display: block;
+        position: absolute;
+        background: rgba (255,255,255.5);
+        width: 60px;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: .5s;
+        filter: blur(30px);
+        transform: rotate(90deg);
+        transition: all 1s;
+    }
+    button:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: rgba (255,255,255,.2);
+        width: 30px;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        filter: blur(30px);
+        transition: all 1s;
+        transform: scale(1.1);
+        
+    }
+    button:hover {
+        background: #338033;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+    button:hover:before {
+        transform: scale(1.1) t;
+        transition: all 1s;
+        opacity: .6;
+    }
+    button:hover:after {
+        transform: scale(1.1);
+        transition: all 1s;
+        opacity: 1;
+    }
+/*FIM*/
+
+
+/*Configuração do botão só para o Modal*/
+.modal button {
+    background: white;
+    color: black;
+    width: 170px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+    margin-left: 160px;
+}
+.modal button:focus {
+    outline: none;
+}
+.modal button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba (255,255,255.5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+.modal button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba (255,255,255,.2);
+    width: 30px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+.modal button:hover {
+    background: #338033;
+    cursor: pointer;
+    color: white;
+}
+.modal button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+.modal button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+} 
+
+
+/*CONFIGURAÇÃO PARA SMARTHPHONES*/
+@media only screen and (max-width: 768px) {
+    .sobre .container .row .col-md-12 .contato {
+        display: none;
+    }
+    .container .logo {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .container .row .col-md-9 nav {
+        margin-top: 0;
+    }
+    .container .row .col-md-9 nav label {
+        display: block;     
+        cursor: pointer;
+        color: white;
+    }
+    .container .row .col-md-3  a img {
+        display: none;
+    }
+    .hb li{
+        width: 100%;
+        text-align: center;
+        background-color: black;
+    }
+    .hb li a {
+        color: white;
+        cursor: pointer;
+    }
+    .hb li ul {
+        display: none;
+    }
+    .hb {
+        display: none;
+        margin-top: px;
+    }
+    .sec01 {
+        margin-top: 15px;
+    }
+    #toggle:checked + .hb {
+        display: block;
+        margin: 0px;
+    }
+    header {
+        height: 100px;
+        background-color: black;
+        padding-top: 20px;
+    }
+    .barra_superior {
+        display: none;
+    }
+    .portifolio .container .row .col-md-12 .row .col-md-6 .content {
+        margin-top: 0px !important;
+    }
+    .portifolio .container .row .col-md-12 .row .col-md-6 img {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .container .row .col-md-12 .modal {
+        width: 100%;
+        transition: 0s;
+        transform: block;
+    }
+}
+/*FIM*/
+
+
+/*CONFIGURAÇÃO PARA TABLETS*/
+@media only screen and (max-width: 992px) {
+    ul li  {
+    
+        width: 200px;
+        padding: 0px;
+    }
+    ul li a {
+        color: white;
+    }
+}
+/*FIM*/
